@@ -5,7 +5,7 @@
 
 <p>In the first part <a href="https://vinagrsec.github.io/android-hacking-part-1">Part-1</a> of the blog, we learned how to create a malicious android application and hack the android phones. We also learned the preventive measures in which how we can restrain ourselves from being a victim.</p>
 
-</p>In this part, we will learn more sophisticated way to create a malicious android application.</p>
+<p>In this part, we will learn more sophisticated way to create a malicious android application.</p>
 
 <p>So what we are going to do here is, we will embed our malicious android application which we learned to create in Part-1 with legitimate android application. So, let's begin.</p>
 
