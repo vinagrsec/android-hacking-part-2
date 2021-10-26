@@ -109,14 +109,15 @@
 
 <p>As learned from the previous blog <a href="https://vinagrsec.github.io/android-hacking-part-1">Part-1</a>, you need to host the latest apk using <strong>SimpleHTTPServer</strong>. Share the URL to your friend, for e.g. http://your-local-ip:8080/fruit-ninja.apk. He will run in his browser's address bar and apk will be downloaded automatically. He can install the application now.</p>
 
-<img src="https://vinagrsec.files.wordpress.com/2021/10/combined-installed-apk-1-2.jpg?w=1024" alt="" data-id="164" data-full-url="https://vinagrsec.files.wordpress.com/2021/10/combined-installed-apk-1-2.jpg" data-link="https://vinagrsec.wordpress.com/combined-installed-apk-1-2/" class="wp-image-164"/>
+<img src="https://vinagrsec.files.wordpress.com/2021/10/combined-installed-apk-1-2-1.jpg?w=605" alt="" data-id="168" data-full-url="https://vinagrsec.files.wordpress.com/2021/10/combined-installed-apk-1-2-1.jpg" data-link="https://vinagrsec.wordpress.com/combined-installed-apk-1-2-1/" class="wp-image-168"/>
 
 <br>
 <p><strong>Step-6: Magic Time!</strong></p>
 
 <p>Let him enjoy his favorite game and **cough**</p>
 
-<img src="https://vinagrsec.files.wordpress.com/2021/10/screenshot_20211023-210514_fruit-ninja-1.jpg?w=576" alt="" class="wp-image-166"/>
+<img src="https://vinagrsec.files.wordpress.com/2021/10/screenshot_20211023-210514_fruit-ninja-2.jpg?w=304" alt="" class="wp-image-169"/>
+
 <br>
 <p>The moment he clicks on the game to play, a magic will happen on the other end and he will be totally unware about what is going on in the background. Wanna see?</p>
 
