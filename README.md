@@ -109,14 +109,14 @@
 
 <p>As learned from the previous blog <a href="https://vinagrsec.github.io/android-hacking-part-1">Part-1</a>, you need to host the latest apk using <strong>SimpleHTTPServer</strong>. Share the URL to your friend, for e.g. http://your-local-ip:8080/fruit-ninja.apk. He will run in his browser's address bar and apk will be downloaded automatically. He can install the application now.</p>
 
-![image](https://user-images.githubusercontent.com/92144178/138900271-8ac826c5-d59e-4d63-8ec4-240048e3e8dd.png)
+![image-5](https://user-images.githubusercontent.com/92144178/138900271-8ac826c5-d59e-4d63-8ec4-240048e3e8dd.png)
 
 <br>
 <p><strong>Step-6: Magic Time!</strong></p>
 
 <p>Let him enjoy his favorite game and **cough**</p>
 
-![image](https://user-images.githubusercontent.com/92144178/138901555-9805fc9e-88e6-46cd-972e-5133382fa9dd.png)
+![image-6](https://user-images.githubusercontent.com/92144178/138901555-9805fc9e-88e6-46cd-972e-5133382fa9dd.png")
 <br>
 <p>The moment he clicks on the game to play, a magic will happen on the other end and he will be totally unware about what is going on in the background. Wanna see?</p>
 
