@@ -116,7 +116,7 @@
 <br>
 <p><strong>Step-6: Magic Time!</strong></p>
 
-<p>Let him enjoy his favorite game and **cough**</p>
+<p>Let him enjoy his favorite game and in the background, our malware will start doing its job simply</p>
 
 <div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://vinagrsec.files.wordpress.com/2021/10/screenshot_20211023-210514_fruit-ninja-2.jpg?w=304" alt="" class="wp-image-169"/></figure></div>
 
