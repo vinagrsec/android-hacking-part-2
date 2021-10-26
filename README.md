@@ -117,7 +117,7 @@
 
 <p>Let him enjoy his favorite game and **cough**</p>
 
-<img src="https://vinagrsec.files.wordpress.com/2021/10/screenshot_20211023-210514_fruit-ninja-2.jpg?w=304" alt="" class="wp-image-169"/>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://vinagrsec.files.wordpress.com/2021/10/screenshot_20211023-210514_fruit-ninja-2.jpg?w=304" alt="" class="wp-image-169"/></figure></div>
 
 <br>
 <p>The moment he clicks on the game to play, a magic will happen on the other end and he will be totally unware about what is going on in the background. Wanna see?</p>
@@ -150,7 +150,7 @@
 
 <p>Now, run the msfvenom command again and you can observe from the logs that the procedure is being used here is same as it was in Method-1.</p>
 
-<img src="https://vinagrsec.files.wordpress.com/2021/10/msfvenom-x-2-success.png?w=1024" alt="" class="wp-image-152"/>
+<div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://vinagrsec.files.wordpress.com/2021/10/msfvenom-x-2-success.png?w=1024" alt="" class="wp-image-152"/></figure></div>
 
 <p>From here, follow the Step-4 to 6 and you're good to go. Easy peasy..!!</p>
 <br>
