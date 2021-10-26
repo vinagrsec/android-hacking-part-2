@@ -120,9 +120,7 @@
 
 <p>Let him enjoy his favorite game and in the background, our malware will start doing its job simply</p>
 
-<!-- wp:image {"align":"center","id":169,"sizeSlug":"large","linkDestination":"none"} -->
 <div class="wp-block-image"><figure class="aligncenter size-large"><img src="https://vinagrsec.files.wordpress.com/2021/10/screenshot_20211023-210514_fruit-ninja-2.jpg?w=304" alt="" class="wp-image-169"/></figure></div>
-<!-- /wp:image -->
 
 <br>
 <p>The moment he clicks on the game to play, a magic will happen on the other end and he will be totally unware about what is going on in the background. Wanna see?</p>
