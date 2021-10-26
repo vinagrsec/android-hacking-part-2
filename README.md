@@ -27,7 +27,7 @@
 <p>Now, it's time to start our game..!!</p>
 
 <p><em><strong>Note:</strong> Before we proceed, please keep in mind that this tutorial/article is just for an educational purpose. This is to make everyone aware about the consequences of using android application from an untrusted/unknown sources.</em></p>
-<br>
+
 <p>Like mentioned in previous blog <a href="https://vinagrsec.github.io/android-hacking-part-1">Part-1</a>, I will be performing the whole process in my own network only. But, one can perform the attack process in any network either LAN or WAN (External network).</p>
 
 <p>Before we start getting into the actual process, let's assume one scenario. In this process, 4 actors will be involved:</p>
@@ -47,7 +47,7 @@
 <p><img width="279" height="250" src="https://media0.giphy.com/media/8FJjDVGHSOk7PExGeu/giphy.gif?cid=de9bf95eokz160yfe32o7mrzw7ujk1j1swjy8r93z8rmclxs&amp;rid=giphy.gif&amp;ct=g" alt="scheming rooster teeth GIF by Achievement Hunter (GIF Image)"></p>
 
 <p><em><strong>Note:</strong> Assuming attacker(you) and victim(friend) are on the same network here.</em></p>
-<br>
+
 <p><strong>Step-1: Creating Malicious Payload</strong></p>
 
 <p>Create a malicious apk using the following command:</p>
@@ -56,6 +56,7 @@
 
 <img src="https://vinagrsec.files.wordpress.com/2021/10/msfvenom-create-payload.png?w=936" alt="" class="wp-image-129"/>
 <br>
+
 <p><strong>Step-2: Download AndroidEmbedIT script from Github</strong></p>
 
 <p>To download the script from github using terminal, you can use git command.</p>
@@ -77,7 +78,7 @@
 <img src="https://vinagrsec.files.wordpress.com/2021/10/embedit-scrpt-help-1.png?w=762" alt="" class="wp-image-131"/>
 
 <p>As you can see from the arguments, script requires key details(not required), a legitimate apk and msf apk (malicious apk).</p>
-<br>
+
 <p><strong>Step-3: Embed the Malicious APK code in Legitimate APK</strong></p>
 
 <p>Here, a widely-used android game <strong>Fruit Ninja</strong> apk is downloaded for your friend.</p>
@@ -98,13 +99,13 @@
 
 <strong>#<code>mv final.apk fruit-ninja.apk</code></strong>
 
-<br>
 <p><strong>Step-4: Launch Metasploit Framework</strong></p>
 
 <p>Now, launch the metasploit framework using msfconsole. Once the Metasploit framework is launched, you need to use multi/handler, which is a stub that handles exploits launched outside of the framework. Set the same payload, IP address and port which you used while creating the malicious payload in Step-1.</p>
 
 <img src="https://vinagrsec.files.wordpress.com/2021/10/meterprter-exploit-handler.png?w=655" alt="" class="wp-image-140"/>
 <br>
+
 <p><strong>Step-5: Host the Latest APK and Share the URL to Your Friend to Download</strong></p>
 
 <p>As learned from the previous blog <a href="https://vinagrsec.github.io/android-hacking-part-1">Part-1</a>, you need to host the latest apk using <strong>SimpleHTTPServer</strong>. Share the URL to your friend, for e.g. http://your-local-ip:8080/fruit-ninja.apk. He will run in his browser's address bar and apk will be downloaded automatically. He can install the application now.</p>
